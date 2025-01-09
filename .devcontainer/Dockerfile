@@ -1,4 +1,4 @@
-FROM docker.io/ubuntu:20.04
+FROM docker.io/ubuntu:22.04
 
 RUN apt update -y && apt upgrade -y
 RUN DEBIAN_FRONTEND=noninteractive apt install -y lxde
